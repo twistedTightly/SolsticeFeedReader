@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A344E4116C8C44000DB816F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A344E4016C8C44000DB816F /* MainStoryboard_iPhone.storyboard */; };
+		6A344E4416C8C8DB00DB816F /* SolsticeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A344E4316C8C8DB00DB816F /* SolsticeParser.m */; };
+		91FA710616BF0BD7004ECD6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FA710516BF0BD7004ECD6E /* UIKit.framework */; };
+		91FA710816BF0BD7004ECD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FA710716BF0BD7004ECD6E /* Foundation.framework */; };
+		91FA710A16BF0BD7004ECD6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FA710916BF0BD7004ECD6E /* CoreGraphics.framework */; };
+		91FA711016BF0BD7004ECD6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91FA710E16BF0BD7004ECD6E /* InfoPlist.strings */; };
+		91FA711216BF0BD7004ECD6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FA711116BF0BD7004ECD6E /* main.m */; };
+		91FA711616BF0BD7004ECD6E /* FRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FA711516BF0BD7004ECD6E /* FRAppDelegate.m */; };
+		91FA711816BF0BD7004ECD6E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FA711716BF0BD7004ECD6E /* Default.png */; };
+		91FA711A16BF0BD7004ECD6E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FA711916BF0BD7004ECD6E /* Default@2x.png */; };
+		91FA711C16BF0BD7004ECD6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FA711B16BF0BD7004ECD6E /* Default-568h@2x.png */; };
+		91FA712216BF0BD7004ECD6E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FA712016BF0BD7004ECD6E /* MainStoryboard_iPad.storyboard */; };
+		91FA713016BF0BD7004ECD6E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FA712F16BF0BD7004ECD6E /* SenTestingKit.framework */; };
+		91FA713116BF0BD7004ECD6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FA710516BF0BD7004ECD6E /* UIKit.framework */; };
+		91FA713216BF0BD7004ECD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FA710716BF0BD7004ECD6E /* Foundation.framework */; };
+		91FA713A16BF0BD7004ECD6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91FA713816BF0BD7004ECD6E /* InfoPlist.strings */; };
+		91FA713D16BF0BD7004ECD6E /* SolsticeFeedReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FA713C16BF0BD7004ECD6E /* SolsticeFeedReaderTests.m */; };
+		91FA714B16BF0D19004ECD6E /* FRFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FA714A16BF0D19004ECD6E /* FRFeedTableViewController.m */; };
+		91FA714F16BF0F65004ECD6E /* FRFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FA714E16BF0F65004ECD6E /* FRFeedItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		6A479FD816C9B7CD00D9567B /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		91FA713316BF0BD7004ECD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FA70F816BF0BD7004ECD6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FA710016BF0BD7004ECD6E;
+			remoteInfo = SolsticeFeedReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A344E4016C8C44000DB816F /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6A344E4216C8C8DB00DB816F /* SolsticeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolsticeParser.h; sourceTree = "<group>"; };
+		6A344E4316C8C8DB00DB816F /* SolsticeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolsticeParser.m; sourceTree = "<group>"; };
+		91FA710116BF0BD7004ECD6E /* SolsticeFeedReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolsticeFeedReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FA710516BF0BD7004ECD6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91FA710716BF0BD7004ECD6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91FA710916BF0BD7004ECD6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91FA710D16BF0BD7004ECD6E /* SolsticeFeedReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SolsticeFeedReader-Info.plist"; sourceTree = "<group>"; };
+		91FA710F16BF0BD7004ECD6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91FA711116BF0BD7004ECD6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91FA711316BF0BD7004ECD6E /* SolsticeFeedReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SolsticeFeedReader-Prefix.pch"; sourceTree = "<group>"; };
+		91FA711416BF0BD7004ECD6E /* FRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRAppDelegate.h; sourceTree = "<group>"; };
+		91FA711516BF0BD7004ECD6E /* FRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRAppDelegate.m; sourceTree = "<group>"; };
+		91FA711716BF0BD7004ECD6E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		91FA711916BF0BD7004ECD6E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		91FA711B16BF0BD7004ECD6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		91FA712116BF0BD7004ECD6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		91FA712E16BF0BD7004ECD6E /* SolsticeFeedReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolsticeFeedReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FA712F16BF0BD7004ECD6E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		91FA713716BF0BD7004ECD6E /* SolsticeFeedReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SolsticeFeedReaderTests-Info.plist"; sourceTree = "<group>"; };
+		91FA713916BF0BD7004ECD6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91FA713B16BF0BD7004ECD6E /* SolsticeFeedReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolsticeFeedReaderTests.h; sourceTree = "<group>"; };
+		91FA713C16BF0BD7004ECD6E /* SolsticeFeedReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolsticeFeedReaderTests.m; sourceTree = "<group>"; };
+		91FA714916BF0D19004ECD6E /* FRFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRFeedTableViewController.h; sourceTree = "<group>"; };
+		91FA714A16BF0D19004ECD6E /* FRFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRFeedTableViewController.m; sourceTree = "<group>"; };
+		91FA714D16BF0F65004ECD6E /* FRFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRFeedItem.h; sourceTree = "<group>"; };
+		91FA714E16BF0F65004ECD6E /* FRFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRFeedItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FA70FE16BF0BD7004ECD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FA710616BF0BD7004ECD6E /* UIKit.framework in Frameworks */,
+				91FA710816BF0BD7004ECD6E /* Foundation.framework in Frameworks */,
+				91FA710A16BF0BD7004ECD6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FA712A16BF0BD7004ECD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FA713016BF0BD7004ECD6E /* SenTestingKit.framework in Frameworks */,
+				91FA713116BF0BD7004ECD6E /* UIKit.framework in Frameworks */,
+				91FA713216BF0BD7004ECD6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91FA70F616BF0BD7004ECD6E = {
+			isa = PBXGroup;
+			children = (
+				91FA710B16BF0BD7004ECD6E /* SolsticeFeedReader */,
+				91FA713516BF0BD7004ECD6E /* SolsticeFeedReaderTests */,
+				91FA710416BF0BD7004ECD6E /* Frameworks */,
+				91FA710216BF0BD7004ECD6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FA710216BF0BD7004ECD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FA710116BF0BD7004ECD6E /* SolsticeFeedReader.app */,
+				91FA712E16BF0BD7004ECD6E /* SolsticeFeedReaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FA710416BF0BD7004ECD6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91FA710516BF0BD7004ECD6E /* UIKit.framework */,
+				91FA710716BF0BD7004ECD6E /* Foundation.framework */,
+				91FA710916BF0BD7004ECD6E /* CoreGraphics.framework */,
+				91FA712F16BF0BD7004ECD6E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91FA710B16BF0BD7004ECD6E /* SolsticeFeedReader */ = {
+			isa = PBXGroup;
+			children = (
+				91FA714C16BF0F4A004ECD6E /* FeedItem */,
+				6A344E4216C8C8DB00DB816F /* SolsticeParser.h */,
+				6A344E4316C8C8DB00DB816F /* SolsticeParser.m */,
+				91FA711416BF0BD7004ECD6E /* FRAppDelegate.h */,
+				91FA711516BF0BD7004ECD6E /* FRAppDelegate.m */,
+				91FA712016BF0BD7004ECD6E /* MainStoryboard_iPad.storyboard */,
+				6A344E4016C8C44000DB816F /* MainStoryboard_iPhone.storyboard */,
+				91FA714916BF0D19004ECD6E /* FRFeedTableViewController.h */,
+				91FA714A16BF0D19004ECD6E /* FRFeedTableViewController.m */,
+				91FA710C16BF0BD7004ECD6E /* Supporting Files */,
+			);
+			path = SolsticeFeedReader;
+			sourceTree = "<group>";
+		};
+		91FA710C16BF0BD7004ECD6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91FA710D16BF0BD7004ECD6E /* SolsticeFeedReader-Info.plist */,
+				91FA710E16BF0BD7004ECD6E /* InfoPlist.strings */,
+				91FA711116BF0BD7004ECD6E /* main.m */,
+				91FA711316BF0BD7004ECD6E /* SolsticeFeedReader-Prefix.pch */,
+				91FA711716BF0BD7004ECD6E /* Default.png */,
+				91FA711916BF0BD7004ECD6E /* Default@2x.png */,
+				91FA711B16BF0BD7004ECD6E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91FA713516BF0BD7004ECD6E /* SolsticeFeedReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				91FA713B16BF0BD7004ECD6E /* SolsticeFeedReaderTests.h */,
+				91FA713C16BF0BD7004ECD6E /* SolsticeFeedReaderTests.m */,
+				91FA713616BF0BD7004ECD6E /* Supporting Files */,
+			);
+			path = SolsticeFeedReaderTests;
+			sourceTree = "<group>";
+		};
+		91FA713616BF0BD7004ECD6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91FA713716BF0BD7004ECD6E /* SolsticeFeedReaderTests-Info.plist */,
+				91FA713816BF0BD7004ECD6E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91FA714C16BF0F4A004ECD6E /* FeedItem */ = {
+			isa = PBXGroup;
+			children = (
+				91FA714D16BF0F65004ECD6E /* FRFeedItem.h */,
+				91FA714E16BF0F65004ECD6E /* FRFeedItem.m */,
+			);
+			name = FeedItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FA710016BF0BD7004ECD6E /* SolsticeFeedReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FA714016BF0BD7004ECD6E /* Build configuration list for PBXNativeTarget "SolsticeFeedReader" */;
+			buildPhases = (
+				91FA70FD16BF0BD7004ECD6E /* Sources */,
+				91FA70FE16BF0BD7004ECD6E /* Frameworks */,
+				91FA70FF16BF0BD7004ECD6E /* Resources */,
+			);
+			buildRules = (
+				6A479FD816C9B7CD00D9567B /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = SolsticeFeedReader;
+			productName = SolsticeFeedReader;
+			productReference = 91FA710116BF0BD7004ECD6E /* SolsticeFeedReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91FA712D16BF0BD7004ECD6E /* SolsticeFeedReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FA714316BF0BD7004ECD6E /* Build configuration list for PBXNativeTarget "SolsticeFeedReaderTests" */;
+			buildPhases = (
+				91FA712916BF0BD7004ECD6E /* Sources */,
+				91FA712A16BF0BD7004ECD6E /* Frameworks */,
+				91FA712B16BF0BD7004ECD6E /* Resources */,
+				91FA712C16BF0BD7004ECD6E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FA713416BF0BD7004ECD6E /* PBXTargetDependency */,
+			);
+			name = SolsticeFeedReaderTests;
+			productName = SolsticeFeedReaderTests;
+			productReference = 91FA712E16BF0BD7004ECD6E /* SolsticeFeedReaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FA70F816BF0BD7004ECD6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Solstice Mobile";
+			};
+			buildConfigurationList = 91FA70FB16BF0BD7004ECD6E /* Build configuration list for PBXProject "SolsticeFeedReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91FA70F616BF0BD7004ECD6E;
+			productRefGroup = 91FA710216BF0BD7004ECD6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FA710016BF0BD7004ECD6E /* SolsticeFeedReader */,
+				91FA712D16BF0BD7004ECD6E /* SolsticeFeedReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FA70FF16BF0BD7004ECD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FA711016BF0BD7004ECD6E /* InfoPlist.strings in Resources */,
+				91FA711816BF0BD7004ECD6E /* Default.png in Resources */,
+				91FA711A16BF0BD7004ECD6E /* Default@2x.png in Resources */,
+				91FA711C16BF0BD7004ECD6E /* Default-568h@2x.png in Resources */,
+				91FA712216BF0BD7004ECD6E /* MainStoryboard_iPad.storyboard in Resources */,
+				6A344E4116C8C44000DB816F /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FA712B16BF0BD7004ECD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FA713A16BF0BD7004ECD6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91FA712C16BF0BD7004ECD6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FA70FD16BF0BD7004ECD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FA711216BF0BD7004ECD6E /* main.m in Sources */,
+				91FA711616BF0BD7004ECD6E /* FRAppDelegate.m in Sources */,
+				91FA714B16BF0D19004ECD6E /* FRFeedTableViewController.m in Sources */,
+				91FA714F16BF0F65004ECD6E /* FRFeedItem.m in Sources */,
+				6A344E4416C8C8DB00DB816F /* SolsticeParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FA712916BF0BD7004ECD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FA713D16BF0BD7004ECD6E /* SolsticeFeedReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91FA713416BF0BD7004ECD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FA710016BF0BD7004ECD6E /* SolsticeFeedReader */;
+			targetProxy = 91FA713316BF0BD7004ECD6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91FA710E16BF0BD7004ECD6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FA710F16BF0BD7004ECD6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91FA712016BF0BD7004ECD6E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FA712116BF0BD7004ECD6E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		91FA713816BF0BD7004ECD6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FA713916BF0BD7004ECD6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FA713E16BF0BD7004ECD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91FA713F16BF0BD7004ECD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FA714116BF0BD7004ECD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolsticeFeedReader/SolsticeFeedReader-Prefix.pch";
+				INFOPLIST_FILE = "SolsticeFeedReader/SolsticeFeedReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91FA714216BF0BD7004ECD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolsticeFeedReader/SolsticeFeedReader-Prefix.pch";
+				INFOPLIST_FILE = "SolsticeFeedReader/SolsticeFeedReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91FA714416BF0BD7004ECD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SolsticeFeedReader.app/SolsticeFeedReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolsticeFeedReader/SolsticeFeedReader-Prefix.pch";
+				INFOPLIST_FILE = "SolsticeFeedReaderTests/SolsticeFeedReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		91FA714516BF0BD7004ECD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SolsticeFeedReader.app/SolsticeFeedReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolsticeFeedReader/SolsticeFeedReader-Prefix.pch";
+				INFOPLIST_FILE = "SolsticeFeedReaderTests/SolsticeFeedReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FA70FB16BF0BD7004ECD6E /* Build configuration list for PBXProject "SolsticeFeedReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FA713E16BF0BD7004ECD6E /* Debug */,
+				91FA713F16BF0BD7004ECD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FA714016BF0BD7004ECD6E /* Build configuration list for PBXNativeTarget "SolsticeFeedReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FA714116BF0BD7004ECD6E /* Debug */,
+				91FA714216BF0BD7004ECD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FA714316BF0BD7004ECD6E /* Build configuration list for PBXNativeTarget "SolsticeFeedReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FA714416BF0BD7004ECD6E /* Debug */,
+				91FA714516BF0BD7004ECD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FA70F816BF0BD7004ECD6E /* Project object */;
+}
